@@ -1,0 +1,48 @@
+.player1_login , .player2_login {
+    float: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 5px;
+    border-style: none;
+    color: yellow;
+    height: 30px;
+    transition: .5s;
+}
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+#player1_name , #player2_name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#output {
+    float: none;
+    text-align: left;
+    border-top:10px solid  #AA4465;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#word {
+    width: 50%;
+}
